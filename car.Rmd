@@ -1,0 +1,7 @@
+---
+title: "Test Report"
+output: html_document
+---
+
+```{r}
+plot(cars$speed, cars$dist)
