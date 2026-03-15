@@ -103,7 +103,7 @@ if __name__ == "__main__":
     tm = TaskManager()
     
     tm.add_task("写作业", 2)
-    tm.add_task("打游戏", 4)
+    tm.add_task("游戏", 4)
     
     task1 = tm.get_task("写作业")
     print("查找写作业任务：", task1)  
@@ -111,5 +111,5 @@ if __name__ == "__main__":
     tm.update_priority("写作业", 1)
     print("修改后写作业任务：", tm.get_task("写作业")) 
     
-    tm.delete_task("打游戏")
-    print("删除后查找打游戏任务：", tm.get_task("打游戏"))  
+    tm.delete_task("游戏")
+    print("删除后查找游戏任务：", tm.get_task("游戏"))  
